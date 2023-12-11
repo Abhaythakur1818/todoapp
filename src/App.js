@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import TodoInput from './components/TodoInput';
-import TodoList from './components/TodoList';
+import TodoInput from './TodoInput';
+import TodoList from './TodoList';
 
 function App() {
   const [listTodo, setListTodo] = useState([]);
